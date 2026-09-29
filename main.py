@@ -5,6 +5,10 @@ from pydantic import BaseModel
 #initialize the fat api app
 app = FastAPI(title="Bank-App Console")
 
+@app.get("/")
+def root():
+    return {"message": "Welcome to the Bank-App Console API!"}
+
 # Admin object
 ADMIN = {"username": "admin", "password": "admin123"}
 
