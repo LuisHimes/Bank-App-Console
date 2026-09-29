@@ -1,9 +1,2 @@
 {
-    "python-envs.pythonProjects": [
-        {
-            "path": "Bank_App_Console_project",
-            "envManager": "ms-python.python:system",
-            "packageManager": "ms-python.python:pip"
-        }
-    ]
 }
